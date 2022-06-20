@@ -1,0 +1,33 @@
+$sm_icons: (
+    "facebook": rgb(204, 204, 204),
+    "facebook_hover": rgb(110, 150, 202),
+    "twitter": #ccc,
+    "twitter_hover": rgb(37, 37, 182),
+    "linkedin": #ccc,
+    "linkedin_hover": rgb(0, 140, 255),
+    );
+
+    .boton_facebook {
+        color: map-get($map: $sm_icons, $key: facebook);
+        
+        &:hover { 
+            color: map-get($map: $sm_icons, $key: facebook_hover);
+                }
+    }
+
+    .boton_twitter {
+        color: map-get($map: $sm_icons, $key: twitter);
+        
+        &:hover { 
+            color: map-get($map: $sm_icons, $key: twitter_hover);
+                }
+    }
+
+    .boton_linkedin {
+        color: map-get($map: $sm_icons, $key: linkedin);
+
+        &:hover { 
+            color: map-get($map: $sm_icons, $key: linkedin_hover);
+                }
+    }
+    

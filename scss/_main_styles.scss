@@ -99,22 +99,6 @@ header {
         
 }       
 
-.slider__btn {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: Bold;	
-	border-style: solid;
-    border-width: 1px;
-    border-radius: 30px;
-    border-color: aqua;	
-    padding: 10px 20px;    
-
-    -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-
 .servicios {
     grid-area: servicios; 
     display: flex;
@@ -181,7 +165,8 @@ header {
 } 
 
     .news__col {    
-        width: 300px;    
+        width: 300px;  
+        padding-bottom: 20px;  
     }
 
         .news__col img {

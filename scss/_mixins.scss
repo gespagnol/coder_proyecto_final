@@ -1,0 +1,8 @@
+@mixin fontsize ($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;    
+}
+
+.font_small {
+    @include fontsize(16px, 100);
+}
