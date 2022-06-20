@@ -85,20 +85,6 @@ header a {
   color: #fff;
   padding: 2% 15% 2% 15%; }
 
-.slider__btn {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  color: #fff;
-  text-decoration: none;
-  font-weight: Bold;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 30px;
-  border-color: aqua;
-  padding: 10px 20px;
-  -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
-
 .servicios {
   grid-area: servicios;
   display: flex;
@@ -155,7 +141,8 @@ header a {
   padding: 10px 50px; }
 
 .news__col {
-  width: 300px; }
+  width: 300px;
+  padding-bottom: 20px; }
 
 .news__col img {
   width: 300px;
@@ -297,6 +284,52 @@ header a {
     transform: translateX(0);
     opacity: 1; } }
 
+.button_base, .button_news, .button_contactus {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: Bold;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 30px;
+  border-color: aqua;
+  padding: 10px 20px;
+  -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+  .button_base:hover, .button_news:hover, .button_contactus:hover {
+    color: aqua;
+    border-color: #ccc; }
+
+.button_news {
+  font-size: 15px;
+  color: #000;
+  font-weight: lighter; }
+
+.button_contactus {
+  border-color: #25D366; }
+  .button_contactus:hover {
+    color: #25D366; }
+
+.boton_facebook {
+  color: #cccccc; }
+  .boton_facebook:hover {
+    color: #6e96ca; }
+
+.boton_twitter {
+  color: #ccc; }
+  .boton_twitter:hover {
+    color: #2525b6; }
+
+.boton_linkedin {
+  color: #ccc; }
+  .boton_linkedin:hover {
+    color: #008cff; }
+
+.font_small {
+  font-size: 16px;
+  font-weight: 100; }
+
 /* phone */
 @media only screen and (max-width: 480px) {
   #gridArea {
@@ -318,9 +351,9 @@ header a {
   .slider__desc {
     padding: 2% 5% 5% 5%;
     font-size: 18px; }
-  .slider__btn {
+  .button_base, .button_news, .button_contactus {
     font-size: 16px; }
-  .servicios h3 {
+  .servicios h2 {
     padding: 10px 0 20px 0; }
   .news__desc {
     padding-bottom: 5%; }
